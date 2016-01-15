@@ -1,4 +1,4 @@
-# kumacore (Pronounced in Japanese: くまコレ)
+# kumacore  (Japanese: くまコレ)
 
 A collection of kumamon collection apps
 
