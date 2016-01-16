@@ -8,4 +8,6 @@ const http    = require('http'),
 
 const app = express();
 
+require('../router')(app);
+
 module.exports = http.createServer(app);
