@@ -1,0 +1,30 @@
+{
+  "name": "kumacore",
+  "version": "0.1.0",
+  "description": "A pubsub server for kumamon newsfeed",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -R spec",
+    "babel-node": "./node_modules/babel-cli/bin/babel-node.js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumasento/kumacore.git"
+  },
+  "author": "Vincent Zhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kumasento/kumacore/issues"
+  },
+  "homepage": "https://github.com/kumasento/kumacore#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "socket.io": "^1.4.4",
+    "twitter": "^1.2.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
